@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+a,
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
+}
+.logo .web-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo .studio-logo {
+  color: #2e2f42;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio-nav:hover {
+  color: #404bbf;
+}
+.studio-nav:active {
+  color: #404bbf;
+}
+
+.studio-portf:hover {
+  color: #404bbf;
+}
+
+.studio-cont:hover {
+  color: #404bbf;
+}
