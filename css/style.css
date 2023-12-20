@@ -19,18 +19,18 @@ ul {
 
 .header-logo {
   font-family: 'Raleway', sans-serif;
-  color: #2e2f42;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.header-logo-web {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-studio {
+  color: #2e2f42;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -44,37 +44,24 @@ ul {
 .navigation-link:hover {
   color: #404bbf;
 }
-.navigation-link-studio {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.navigation-link-studio:hover {
+.navigation-link:focus {
   color: #404bbf;
 }
-.navigation-link-studio:active {
-  color: #404bbf;
+
+.address {
+  font-style: normal;
 }
-.address-mail {
+.address-contact {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-mail:hover {
+.address-contact:hover {
   color: #404bbf;
 }
-.address-tel {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.address-tel:hover {
+.address-contact:focus {
   color: #404bbf;
 }
 
@@ -91,18 +78,27 @@ ul {
 }
 .title-button {
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+  cursor: pointer;
+}
+.title-button:hover {
+  background-color: #404bbf;
+}
+.title-button:focus {
+  background-color: #404bbf;
 }
 
-.achievement-title {
-  display: none;
-}
 h3 {
   color: #2e2f42;
   font-size: 20px;
@@ -131,27 +127,29 @@ h2 {
 .team {
   background: #f4f4fd;
 }
+.team-all {
+  background-color: #fff;
+}
 footer {
   background: #2e2f42;
 }
 .footer-text {
   color: #f4f4fd;
 }
-.footer-logo-web {
+.footer-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo-studio {
   color: #f4f4fd;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
